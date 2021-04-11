@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApplication9.jnlp">
+  <information>
+    <title>JavaFXApplication9</title>
+    <vendor>VINAY</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApplication9.jar" size="6160" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.20.1.jar" size="6637455" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="org.BankingSystem"  name="JavaFXApplication9" />
+  <update check="always"/>
+</jnlp>
